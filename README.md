@@ -3,6 +3,7 @@
 # [1] : Descargar el respositorio
 # [2] : Abrir una terminal de comando 
 # [3] : Ubicarse en la raiz del proyecto y ejecutar los siguientes comandos:
+#  > mvn clean package -DskipTests
 #  > docker build -t backend-apirest:v1 .
 #  > docker pull openjdk:8
 #  > docker run -p 8080:8080 --name rotarMatriz  -d backend-apirest:v1
